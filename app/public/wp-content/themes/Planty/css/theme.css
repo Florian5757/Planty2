@@ -19,51 +19,49 @@ header img {
     margin-top: 31px;
     margin-left: 37px;
 }
-.menu-header-menu-container  {
-    justify-content: center;
-    align-items: center;
-}
-.menu-item menu-item-type-post_type menu-item-object-page menu-item-32  {
-    justify-content: center;
-    align-items: center;
-}
+
 .menu {
     display: flex;
     gap: 60px;
     list-style-type: none;
     align-items: center;
-    
-}
-.menu-link  {
-    justify-content: center;
-    align-items: center;
 }
 .menu-item-33 a  {
     color: black;
     font-weight: 400;
-    font-size: 16px;
-    
+    font-size: 16px; 
+}
+.menu-item-33 a:hover   {
+    font-weight: 700;
+    font-size: 13px;
 }
 .menu-item-32  {
-   
     width: 236px;
     height: 80px;
     background-color: #DC9F96;
-    text-align: center;
+    display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .menu-item-32 a  {
-   
     color: white;
     font-size: 16px;
     font-weight: 700;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 .menu-item-32:hover   {
     background-color: #C02E44;
+}
+footer  {
+    height: 60px;
+    width: 100%;
     
+}
+a.mentions    {
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
 }
