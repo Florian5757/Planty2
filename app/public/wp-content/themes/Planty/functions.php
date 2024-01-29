@@ -9,3 +9,14 @@ function theme_enqueue_styles()
     filemtime(get_stylesheet_directory() . '/css/theme.css'));
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
+
+add_filter('wp_nav_menu_objects', 'filtrer_menu_par_role', 10, 2);
+
+function filtrer_menu_par_role($items, $args) {
+    foreach ($items as $key => $item) {
+        if ($item->title == 'Admin' && !current_user_can('administrator')) {
+            unset($items[$key]);
+        }
+    }
+    return $items;
+}

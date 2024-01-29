@@ -67,6 +67,8 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 	<img src="http://planty.local/wp-content/uploads/2024/01/Logo-planty.png" alt="Logo Planty"> 
 		<?php
 			wp_nav_menu();
+
+			
 			astra_content_before();
 		?>
 	</header>

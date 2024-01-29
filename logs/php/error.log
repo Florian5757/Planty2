@@ -1,0 +1,66 @@
+[29-Jan-2024 14:16:44 UTC] PHP Warning:  Undefined property: stdClass::$target in C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-walker-nav-menu.php on line 218
+[29-Jan-2024 14:16:44 UTC] PHP Warning:  Undefined property: stdClass::$xfn in C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-walker-nav-menu.php on line 221
+[29-Jan-2024 14:16:44 UTC] PHP Warning:  Undefined property: stdClass::$current in C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-walker-nav-menu.php on line 234
+[29-Jan-2024 14:17:15 UTC] PHP Warning:  Undefined property: stdClass::$target in C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-walker-nav-menu.php on line 218
+[29-Jan-2024 14:17:15 UTC] PHP Warning:  Undefined property: stdClass::$xfn in C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-walker-nav-menu.php on line 221
+[29-Jan-2024 14:17:15 UTC] PHP Warning:  Undefined property: stdClass::$current in C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-walker-nav-menu.php on line 234
+[29-Jan-2024 15:26:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajouter_lien_admin(), 0 passed in C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 322 and exactly 2 expected in C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:15
+Stack trace:
+#0 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(322): ajouter_lien_admin()
+#1 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\Planty\header.php(69): wp_nav_menu()
+#4 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\flo16\\...', true, Array)
+#6 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\astra\page.php(20): get_header()
+#8 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#9 C:\Users\flo16\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#10 C:\Users\flo16\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#11 {main}
+  thrown in C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 15
+[29-Jan-2024 15:27:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajouter_lien_admin(), 1 passed in C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:15
+Stack trace:
+#0 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): ajouter_lien_admin('<li id="menu-it...')
+#1 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\Planty\header.php(69): wp_nav_menu()
+#4 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\flo16\\...', true, Array)
+#6 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\astra\page.php(20): get_header()
+#8 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#9 C:\Users\flo16\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#10 C:\Users\flo16\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#11 {main}
+  thrown in C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 15
+[29-Jan-2024 15:27:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function deplacer_lien_admin(), 0 passed in C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 322 and exactly 2 expected in C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:24
+Stack trace:
+#0 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(322): deplacer_lien_admin()
+#1 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(234): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#3 C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\Planty\header.php(69): wp_nav_menu()
+#4 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\flo16\\...', true, Array)
+#6 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\astra\page.php(20): get_header()
+#8 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#9 C:\Users\flo16\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#10 C:\Users\flo16\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#11 {main}
+  thrown in C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 24
+[29-Jan-2024 15:27:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function deplacer_lien_admin(), 1 passed in C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:24
+Stack trace:
+#0 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): deplacer_lien_admin(Array)
+#1 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(234): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#3 C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\Planty\header.php(69): wp_nav_menu()
+#4 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\flo16\\...')
+#5 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\flo16\\...', true, Array)
+#6 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\astra\page.php(20): get_header()
+#8 C:\Users\flo16\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\flo16\\...')
+#9 C:\Users\flo16\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\flo16\\...')
+#10 C:\Users\flo16\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\flo16\\...')
+#11 {main}
+  thrown in C:\Users\flo16\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 24
