@@ -1,5 +1,6 @@
 *   {
     font-family: 'Syne', sans-serif;  
+    
 }
 
 .center {
@@ -13,7 +14,6 @@ header  {
     justify-content: space-between;
     width: 100%;
     height: 80px; 
-    background-color: #FFF;
     box-sizing: border-box;
 }
 
@@ -67,6 +67,24 @@ header img {
 .menu-item-32:hover   {
     background-color: #C02E44;
 }
+
+.site-content {
+    background-color:#ECE2DA;  
+}
+
+
+.bouton   {
+    width: 198px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.bouton  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 footer  {
     height: 60px;

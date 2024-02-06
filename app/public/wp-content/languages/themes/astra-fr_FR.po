@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Themes - Astra package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-01-05 08:37:18+0000\n"
+"PO-Revision-Date: 2024-01-31 10:03:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
 "Language: fr\n"
 "Project-Id-Version: Themes - Astra\n"
 
@@ -21,6 +21,270 @@ msgstr "Astra est un thème rapide, beau et entièrement personnalisable, approp
 #, gp-priority: high
 msgid "Astra"
 msgstr "Astra"
+
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:740
+msgid "To sync this option with comments, use the same positioning for both sections: Contained or Separated."
+msgstr "Pour synchroniser cette option avec les commentaires, utilisez le même positionnement pour les deux sections : Contenues ou Séparées."
+
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:734
+msgid "Location"
+msgstr "Emplacement"
+
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:379
+msgid "Note: Image Size & Ratio won't work if Image Position set as Background."
+msgstr "Remarque : La taille et le ratio de l’image ne fonctionneront pas si la position de l’image est définie comme arrière-plan."
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-special-archive-structures-configs.php:776
+msgid "This option activates Live Search support for the search box on the no results page."
+msgstr "Cette option active la prise en charge de recherche directe pour la boîte de recherche sur la page d’absence de résultats."
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-special-archive-structures-configs.php:748
+msgid "Results Layout"
+msgstr "Mise en page des résultats"
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-special-archive-structures-configs.php:256
+msgid "When Results Not Found"
+msgstr "Quand les résultats ne sont pas trouvés"
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-special-archive-structures-configs.php:241
+msgid "When Results Found"
+msgstr "Quand des résultats sont trouvés"
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-special-archive-structures-configs.php:78
+msgid "Subheading"
+msgstr "Sous-titre"
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-special-archive-structures-configs.php:71
+msgid "Heading"
+msgstr "Titre"
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:800
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:403
+msgid "Author Avatar"
+msgstr "Avatar de l’auteur"
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:783
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:390
+msgid "Prefix Label"
+msgstr "Libellé du préfixe"
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:661
+msgid "Remove the padding around featured image when position is \"None\"."
+msgstr "Supprime la marge interne autour de l’image mise en avant lorsque la position est « Aucune »."
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:660
+msgid "Remove Image Padding"
+msgstr "Supprimer la marge intérieure de l’image"
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:253
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:261
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:269
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:315
+msgid "Taxonomies"
+msgstr "Taxonomies"
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-archive-structures-configs.php:1007
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:1541
+msgid " Title Area"
+msgstr " Zone de titre"
+
+#: inc/modules/posts-structures/customizer/class-astra-posts-archive-structures-configs.php:98
+msgid "Reveal Effect"
+msgstr "Révéler l’effet"
+
+#: inc/markup-extras.php:505
+msgid "Post pagination"
+msgstr "Pagination d’article"
+
+#: inc/customizer/configurations/typography/class-astra-single-typo-configs.php:52
+msgid "Author Box with Social Share"
+msgstr "Boîte d’auteur avec partage social"
+
+#: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:179
+msgid "Taxonomy Font Size"
+msgstr "Taille de police de taxonomie"
+
+#: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:142
+msgid "Meta Font Size"
+msgstr "Taille de police des métadonnées"
+
+#: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:59
+msgid "Extended Meta Style Options"
+msgstr "Options de style méta étendues"
+
+#: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:53
+msgid "Posts Reveal Effect"
+msgstr "Effet de révélation des publications"
+
+#: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:50
+msgid "Posts Filter"
+msgstr "Filtre des publications"
+
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:96
+msgid "Content Images Box Shadow"
+msgstr "Ombre portée des images dans le contenu"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:597
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:886
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:227
+msgid "Divider Type"
+msgstr "Type de séparateur"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:559
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:582
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:737
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:1511
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:476
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:495
+msgid "Badge"
+msgstr "Badge"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:490
+msgid "Post Cards"
+msgstr "Cartes de publication"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:462
+msgid "Zoom Out"
+msgstr "Zoom arrière"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:454
+msgid "Hover Effect"
+msgstr "Effet au survol"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:288
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:274
+msgid "Post Meta"
+msgstr "Métadonnées de publication"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:244
+msgid "Post Elements"
+msgstr "Éléments de publication"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:211
+#: inc/modules/posts-structures/customizer/class-astra-posts-special-archive-structures-configs.php:759
+msgid "Post Per Page"
+msgstr "Publications par page"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:72
+#: inc/modules/posts-structures/customizer/class-astra-posts-special-archive-structures-configs.php:48
+msgid "List"
+msgstr "Liste"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:68
+#: inc/modules/posts-structures/customizer/class-astra-posts-special-archive-structures-configs.php:44
+msgid "Grid"
+msgstr "Grille"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:60
+msgid "Classic Layout"
+msgstr "Mise en page classique"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:53
+msgid "Layout 3"
+msgstr "Mise en page 3"
+
+#: inc/customizer/configurations/comments/class-astra-comments-configs.php:120
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:738
+msgid "Above Comments"
+msgstr "Au-dessus des commentaires"
+
+#: inc/customizer/configurations/comments/class-astra-comments-configs.php:119
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:737
+msgid "Below Comments"
+msgstr "Sous les commentaires"
+
+#: inc/customizer/configurations/comments/class-astra-comments-configs.php:116
+msgid "Form Position"
+msgstr "Emplacement du formulaire"
+
+#: inc/customizer/configurations/comments/class-astra-comments-configs.php:91
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:765
+msgid "Container Structure"
+msgstr "Structure du conteneur"
+
+#: inc/customizer/configurations/comments/class-astra-comments-configs.php:78
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:715
+msgid "Separated"
+msgstr "Séparé"
+
+#: inc/customizer/configurations/comments/class-astra-comments-configs.php:77
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:714
+msgid "Contained"
+msgstr "Confiné"
+
+#: inc/customizer/configurations/comments/class-astra-comments-configs.php:74
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:710
+msgid "Decide whether to isolate or integrate the module with the entry content area."
+msgstr "Décidez si vous souhaitez isoler le module ou l’intégrer au domaine de contenu d’entrée."
+
+#: inc/customizer/configurations/comments/class-astra-comments-configs.php:72
+#: inc/modules/related-posts/customizer/class-astra-related-posts-configs.php:708
+msgid "Section Placement"
+msgstr "Emplacement de la section"
+
+#: inc/customizer/configurations/builder/header/configs/search.php:130
+#: inc/modules/posts-structures/customizer/class-astra-posts-special-archive-structures-configs.php:777
+msgid "Live Search"
+msgstr "Recherche directe"
+
+#. translators: %s: Name of special page type
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:436
+msgid "%s Page"
+msgstr "Page %s"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:227
+msgid "Single Page"
+msgstr "Page individuelle"
+
+#: inc/core/class-theme-strings.php:73 inc/core/class-theme-strings.php:75
+#: inc/core/class-theme-strings.php:92
+msgid "Previous"
+msgstr "Précédent"
+
+#: inc/core/class-theme-strings.php:72 inc/core/class-theme-strings.php:74
+#: inc/core/class-theme-strings.php:91
+msgid "Next"
+msgstr "Suivant"
+
+#: inc/core/class-astra-theme-options.php:190
+msgid "Sorry, but we could not find anything related to your search terms. Please try again."
+msgstr "Nous sommes désolés, mais nous n’avons rien trouvé qui corresponde à vos termes de recherche. Veuillez réessayer."
+
+#: inc/core/class-astra-theme-options.php:189
+msgid "Here are the search results for your search."
+msgstr "Voici les résultats de votre recherche."
+
+#: inc/blog/single-blog.php:282
+msgid "Post navigation"
+msgstr "Navigation des articles"
+
+#: inc/blog/blog-config.php:491
+msgid "Read More »"
+msgstr "Lire la suite »"
+
+#: inc/blog/blog-config.php:491
+msgid "Read Post »"
+msgstr "Lire l’article »"
+
+#: inc/addons/transparent-header/classes/sections/class-astra-customizer-transparent-header-configs.php:203
+msgid "Different Transparent Logo"
+msgstr "Logo transparent différent"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:105
+msgid " Certain Checkout page options may not work smoothly on the block editor based Checkout page. For best results with these features, prefer using a shortcode-based Checkout page."
+msgstr " Certaines options de la page de commande peuvent ne pas fonctionner correctement sur la page de commande basée sur l’éditeur de blocs. Pour obtenir les meilleurs résultats avec ces fonctionnalités, préférez l’utilisation d’une page de commande basée sur un code court."
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:95
+msgid " Certain Cart page options may not work smoothly on the block editor based Cart page. For best results with these features, prefer using a shortcode based Cart page."
+msgstr " Certaines options de la page de panier peuvent ne pas fonctionner correctement sur la page de panier basée sur l’éditeur de blocs. Pour obtenir les meilleurs résultats avec ces fonctionnalités, préférez l’utilisation d’une page de panier basée sur un code court."
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:95
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:105
+msgid "Note:"
+msgstr "Note :"
 
 #: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:1539
 msgid "Single Banner"

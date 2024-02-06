@@ -31,7 +31,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 
 <footer>
-    <a href="#Mentions légales"class="mentions">Mentions légales</a>
+    <a href="http://planty.local/mentions-legales/"class="mentions">Mentions légales</a>
 </footer>
 	</div><!-- #page -->
 <?php 
