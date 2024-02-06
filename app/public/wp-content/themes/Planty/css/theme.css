@@ -1,14 +1,14 @@
 *   {
     font-family: 'Syne', sans-serif;  
-    
+    box-sizing: border-box;
 }
 
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
+}
+/*  Header  */
 header  {
     display: flex;
     justify-content: space-between;
@@ -32,13 +32,13 @@ header img {
     box-sizing: border-box;
 }
 
-.menu-item-33 a  {
+.menu-item-33 a {
     color: black;
     font-weight: 400;
     font-size: 16px; 
 }
 
-.menu-item-33 a:hover   {
+.menu-item-33  a:hover   {
     font-weight: 700;
     font-size: 13px;
 }
@@ -71,19 +71,170 @@ header img {
 .site-content {
     background-color:#ECE2DA;  
 }
-
-
+.has-background-dim-0 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 .bouton   {
     width: 198px;
     height: 55px;
     border-radius: 5px;
-}
-
-.bouton  a {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.bouton a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colonnes   {
+    border-radius: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    
+  }
+  .colonne2  {
+    margin-left: 50px;
+  }
+
+.Cannette{
+    height: 500px;
+}
+.Bann{
+    
+}
+
+.title_equipe{
+    margin-top: -80px!important;
+    margin-bottom: 50px!important;
+}
+
+
+ .cont_equip{
+    margin-top: 20px !important;
+ }
+  
+.metier {
+    margin-top: -25px!important;
+
+}
+.wp-block-cover__image-background {
+    width: 100% !important;
+}
+
+.Form2 .wpcf7-submit   { 
+    width: 198px;
+    height: 55px;
+    border-radius: 5px;
+    margin-left: 330px;
+    margin-top: 10px;
+}
+.wpcf7-spinner{
+    margin: 0 -48px 0 24px;
+}
+.Form2 label  { 
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    line-height: 45px;
+}
+.Form2 p{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.Form2 input   {
+    height: 71px;
+    border-radius: 7px;
+}
+.Form2  { 
+    width: 860px;
+    margin: 0 auto;
+}
+
+
+
+.test{
+    max-width: 1600px;
+    background-color: #C02E44;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.post-30    {
+    background-color: #3B8E46;
+   
+}
+
+
+.ligne1 {
+    width: 860px; /* Largeur de la ligne (100% de la largeur de l'écran) */
+    height: 1px; /* Hauteur de la ligne */
+    background-color: white; /* Couleur de la ligne */
+}
+
+.vl {
+     border-left: 1px solid white; /* Couleur et épaisseur de la ligne */
+     height: 447px;
+     margin-left: 431px;
+}
+
+
+
+
+.Form1  { 
+    width: 30%;
+    margin: 0 auto;
+}
+.Form1 input   {
+    height: 71px;
+    border-radius: 7px;
+    margin-top: -15px;
+}
+.Form1 textarea{
+    line-height: 35px;
+    border-radius: 7px;
+    margin-top: -30px;
+}
+.Form1 label  { 
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    line-height: 50px;
+
+}
+.Form1 p{
+    margin-bottom: 10px;
+}
+.feuille::after{
+    content:url(http://planty.local/wp-content/uploads/2024/02/Feuille-e1707232668224.png);
+    size: 20px;
+    margin-left: 50px;
+}
+
+.Form1 .wpcf7-submit   { 
+    width: 198px;
+    height: 55px;
+    border-radius: 5px;
+    margin-left: 330px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
 
 
 footer  {
@@ -102,7 +253,7 @@ a.mentions    {
 }
 
 /* Media Queries */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
     header {
         flex-direction: column;
         height: auto;
@@ -110,6 +261,8 @@ a.mentions    {
 
     header img {
         margin: 20px auto;
+        display: flex;
+        justify-content: center;
     }
 
     .menu {
@@ -122,4 +275,40 @@ a.mentions    {
     .menu-item-32 {
         width: 100%;
     }
+h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+.title_equipe{
+    margin-top: 0px!important;
+    margin-bottom: 50px!important;
+}
+.Avisint   {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 200%;
+    margin-left: -25px;
+    
+    
+}
+
+.Cannette   {
+    width: 30%;
+}
+    .colonne   {
+        float: left;
+        width: 30%;
+        padding: 10px;
+    }
+
+
+    .Bann{
+        height:auto;
+        width: 50%;
+    }
+
+
+
+
 }
