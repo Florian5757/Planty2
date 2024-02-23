@@ -76,24 +76,51 @@ header img {
 }
 
 /*   Accueil  */
-.cont_gouts{
-    gap: 40px!important;
+
+.Cannette   {
+    position: relative;
+    z-index: 1;
+    margin-top: 4%;  
+}
+
+.Cannette::after    {
+    content:url(http://planty.local/wp-content/uploads/2024/02/FeuilleD.png);
+    position: absolute;
+    top: 21%;
+    left: 49%;
+    z-index: -1;
+}
+
+.Cannette::before  {
+    content:url(http://planty.local/wp-content/uploads/2024/02/FeuilleG.png);
+    position: absolute;
+    top: 20%;
+    left: -42%;
+    z-index: -1;
+    width: 349px;
+}
+
+.TextEnergie   {
+    line-height: 25px;
 }
 
 .title_gout {
-    margin-bottom: -2px!important;
-    margin-top: 13px;
+    margin-bottom: 0px!important;
+    margin-top: 20px;
 }
+
+.cont_gouts{
+    gap: 35px!important;
+    margin-top: 30px;
+}
+
 .Fruits {
     width: 33%!important;
 }
+
 .bouton   {
     width: 198px;
-    height: 55px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 20px! important;
 }
 
 .bouton a {
@@ -143,13 +170,7 @@ header img {
 
 /*  Nous renconter  */
 
-.title_Nousrenc  {
-    margin-top: -30px!important;
-    margin-bottom: 40px!important;
-}
-
 .nousrenc   {
-    
     height: 82px;
     position: relative;
     padding: 0 161px !important;
@@ -162,13 +183,20 @@ header img {
     left: 39px;   
 }
 
+.nousrencP  {
+    line-height: 26px;
+    margin-top: -20px;
+}
+
 .Bann   {
-    height: 420px;
+    height: 100%;
+    min-height: 420px;
 }
 
 .cont_equip {
     width: 72%;
 }
+
 .title_equipe   {
     margin-top: -74px!important;
     margin-bottom: 58px!important;
@@ -177,7 +205,7 @@ header img {
 .Sylvie::before {
     content:url(http://planty.local/wp-content/uploads/2024/02/Feuille-lequipe.png);
     position: absolute;
-    top: 204px;
+    top: 260px;
     right:26px;
 }
 
@@ -211,11 +239,9 @@ header img {
 .Form1 .wpcf7-submit   { 
     width: 198px;
     height: 55px;
-    font-size: 15px;
-    border-radius: 5px;
     position: absolute;
     left: 50%;
-    bottom: -10%;
+    bottom: -5%;
     transform: translate(-50%, -50%);  
 }
 
@@ -293,7 +319,7 @@ header img {
 .vl {
      position:absolute;
      border-left: 1px solid white; 
-     height: 474px;
+     height: 492px;
      margin-left: 431px;
 }
 
@@ -341,7 +367,7 @@ header img {
     height: 55px;
     font-size: 15px;
     border-radius: 5px;
-    margin-top: -10px;
+    margin-top: 5px;
 }
 
 .wpcf7-spinner{
@@ -394,6 +420,10 @@ header img {
 }
 
 /*   Accueil  */
+
+.titleEnergie{
+    margin-top:10%!important;
+}
 
 .title_avis   {
     margin-bottom: 50px!important;
@@ -491,18 +521,34 @@ header img {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 735px) {
 
 h1  {
     font-weight: 800!important;
-    font-size:18px!important;
-    margin-top:15px!important;   
+    font-size: 17px!important;
+    margin-top: 15px!important;   
 }
 
 /*   Accueil  */
 
+.Cannette   {
+    min-width: 130px;
+}
+
+.Cannette::after,.Cannette::before   {
+    content:'';
+}
+
+.Bann_energie   {
+    max-width: 87%;
+}
+
 .titleEnergie   {
     margin-bottom: -30px!important;
+}
+
+.TextEnergie    {
+    margin-top:10%!important;
 }
 
 .title_gout {
@@ -577,6 +623,9 @@ h1  {
 /* Fin Nous renconter  */
 
 /* Commander  */
+.votrecom   {
+    margin-top: 10%!important;
+}
 
 .titlecom   {
     margin-bottom: 5%!important;
