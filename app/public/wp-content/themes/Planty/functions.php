@@ -10,7 +10,6 @@ function theme_enqueue_styles()
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 
-add_filter('wp_nav_menu_objects', 'filtrer_menu_par_role', 10, 2);
 
 function filtrer_menu_par_role($items, $args) {
     foreach ($items as $key => $item) {
@@ -20,3 +19,4 @@ function filtrer_menu_par_role($items, $args) {
     }
     return $items;
 }
+add_filter('wp_nav_menu_objects', 'filtrer_menu_par_role', 10, 2);
