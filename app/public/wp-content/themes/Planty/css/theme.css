@@ -84,7 +84,7 @@ header img {
 }
 
 .Cannette::after    {
-    content:url(http://planty.local/wp-content/uploads/2024/02/FeuilleD.png);
+    content:url(imgs/FeuilleD.png);
     position: absolute;
     top: 21%;
     left: 49%;
@@ -92,7 +92,7 @@ header img {
 }
 
 .Cannette::before  {
-    content:url(http://planty.local/wp-content/uploads/2024/02/FeuilleG.png);
+    content:url(imgs/FeuilleG.png);
     position: absolute;
     top: 20%;
     left: -42%;
@@ -177,7 +177,7 @@ header img {
 }
 
 .nousrenc::before  {
-    content:url(http://planty.local/wp-content/uploads/2024/02/Feuille.png);
+    content:url(imgs/Feuille.png);
     position: absolute;
     top: -112%;
     left: 39px;   
@@ -203,7 +203,7 @@ header img {
 }
 
 .Sylvie::before {
-    content:url(http://planty.local/wp-content/uploads/2024/02/Feuille-lequipe.png);
+    content:url(imgs/Feuille-lequipe.png);
     position: absolute;
     top: 260px;
     right:26px;
@@ -250,8 +250,7 @@ header img {
     padding-top:2%;
 } 
 
-.feuille::after {
-    content:url(http://planty.local/wp-content/uploads/2024/02/Feuille-1.png);
+.feuille::after {content:url(imgs/Feuille-1.png);
     position:relative;
     top: -94px;
     right: 18%;
@@ -432,7 +431,7 @@ header img {
 .cont_avis {
     width: 67%!important;
     flex-direction: column;
-    margin-bottom: 37%!important;
+    margin-bottom: 22%!important;
 }
 
 .photos {
@@ -456,9 +455,6 @@ header img {
 
 /*  Fin Accueil  */
 
-.cont_avis {
-    margin-bottom: 2%;
-}
 
 /*  Nous renconter  */
 
@@ -478,7 +474,7 @@ header img {
 }
 
 .feuille::after {
-    content: url(http://planty.local/wp-content/uploads/2024/02/Feuille-1.png);
+    content: url(imgs/Feuille-1.png);
     position: relative;
     top: -94px;
     right: 19%;
@@ -539,9 +535,6 @@ h1  {
     content:'';
 }
 
-.Bann_energie   {
-    max-width: 87%;
-}
 
 .titleEnergie   {
     margin-bottom: -30px!important;
@@ -568,7 +561,7 @@ h1  {
 
 .cont_avis {
     width: 100%!important;
-    padding-bottom: 85%;
+    margin-bottom: 67%!important;
 }
 
 .title_avis {
